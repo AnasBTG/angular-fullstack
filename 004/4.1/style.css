@@ -1,0 +1,21 @@
+h1 {
+    color: #F58529;
+    font-size: 50px;
+}
+
+h2 {
+    color: ghostwhite;
+    background-color: #DD2A7B;
+}
+
+.textbackgroundcolored {
+    background-color: red;
+    color: white;
+}
+
+.textcentreetcouleurrouge {
+    text-align: center;
+    color: blue;
+}
+
+

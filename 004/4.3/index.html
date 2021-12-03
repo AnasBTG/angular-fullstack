@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selefie à Wookie</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .debug {
+            border: 1px solid red;
+        }
+        .fixed {
+            position: fixed
+        }
+        .m-10 {
+            margin: 10px;
+        }
+        .m-t-50 {
+            margin-top: 50px;
+        }        
+        .p-10 {
+            padding: 10px;
+        }        
+        .header {
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        .footer {
+            left: 0;
+            bottom: 0;
+            width:  100%;
+        }
+        .container {
+
+        }
+        .container .row {
+
+        }
+        .container .flexible {
+            display: flex;
+        }        
+        .container .row .col {
+            
+        }
+        .taille-container {
+            width: 1050px;
+        }
+        @media screen and (max-width: 500px) {
+            .taille-container {
+            width: 450px;
+        }
+        }
+        .auto-margin {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header fixed debug p-10">
+        <div class="container">
+            <div class="row flexible">
+                <div class="col">
+                    Logo
+                </div>
+                <div class="col">
+                    Premier menu
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="m-t-50">
+        <section class="auto-margin taille-container">
+            <article class="container">
+                <div class="row flexible">
+                    <div class="col">
+                        <h1>Titre selfie 1</h1>
+                    </div>
+                    <div class="col">
+                        [...]
+                    </div>
+                </div>
+                
+                <div class="row flexible">
+                    <div class="col">
+                        <img src="./images/wookie2.jpg" alt="Wookie rigolo" title="Wookie">
+                    </div>                  
+                </div>
+            </article>
+        </section>
+    </div>
+    <footer class="footer fixed debug p-10">
+        Footer
+    </footer>
+</body>
+</html>
